@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "27fccdb30e661944c93802a20a67b624",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -521,6 +521,36 @@
             "description": "Highlight PHP code in terminal",
             "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
+        },
+        {
+            "name": "katherine/lara-multilogin",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/zhonghuisheji/workspace/www/lara-multilogin/packages/katherine/lara-multilogin",
+                "reference": "3823baef1d6dddf742dbaa785b00d0b9382acc5a"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaraMultiLogin\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "LaraMultiLogin\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "katherine",
+                    "email": "1134052988@qq.com"
+                }
+            ],
+            "description": "Lara-multilogin is aimed to assemble multi third part login and main traditional login method"
         },
         {
             "name": "laravel/framework",
@@ -5318,7 +5348,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "katherine/lara-multilogin": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

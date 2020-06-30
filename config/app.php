@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        LaraMultiLogin\AdminServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -1,0 +1,23 @@
+{
+    "name": "katherine/lara-multilogin",
+    "description": "Lara-multilogin is aimed to assemble multi third part login and main traditional login method",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "katherine",
+            "email": "1134052988@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LaraMultiLogin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaraMultiLogin\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
